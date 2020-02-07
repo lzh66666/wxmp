@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/event/event",
+    "pages/tpl/qq/qq",
+    "pages/tpl/wx/wx",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/article_template/article_template"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/tpl/qq/qq",
+        "text": "QQ",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/tpl/wx/wx",
+        "text": "WX",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

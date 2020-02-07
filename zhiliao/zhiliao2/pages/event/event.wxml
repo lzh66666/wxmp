@@ -1,0 +1,13 @@
+<view bindtap="onViewClick">请点击我</view>
+
+<!-- bindtap会进行事件冒泡，而catchtap则会阻止事件冒泡 -->
+<view class="article-group" wx:for="{{articles}}" wx:key="*this"  bindtap="onArticleCick" data-id="{{item.id}}" data-title="{{item.title}}">
+  <view>{{item.title}}</view>
+  <view class="advertise" catchtap="onAdvertiseClick">我是广告</view>
+</view>
+
+<view id="outer" class="outterview" bindtap="onOutterViewClick">
+  <view id="inner" class="innerview" bindtap="onInnerViewClick">
+
+  </view>
+</view>

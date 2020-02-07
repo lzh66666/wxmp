@@ -1,0 +1,4 @@
+<import src="../../templates/messages/messages.wxml" />
+<template is="message" data="{{content:'我们一起打篮球吧！',friend:'科比'}}" ></template>
+
+<template is="message" wx:for="{{messages}}" wx:key="*this" data="{{...item}}" ></template>

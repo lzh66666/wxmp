@@ -1,0 +1,21 @@
+.article-group{
+  font-size: 14px;
+  line-height: 40px;
+  padding: 10px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.article-group .advertise{
+  background: red;
+}
+.outterview{
+  background: pink;
+  width: 200px;
+  height: 200px;
+}
+
+.innerview{
+  background: blue;
+  width: 100px;
+  height: 100px;
+}

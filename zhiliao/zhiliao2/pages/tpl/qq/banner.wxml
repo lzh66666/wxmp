@@ -1,0 +1,9 @@
+<view>
+  我是一个banner
+  <text>{{username}}</text>
+</view>
+
+<!-- 不能被qq模板中的include引用 -->
+<template name="xxx">
+  <text>我是banner模板中的代码</text>
+</template>

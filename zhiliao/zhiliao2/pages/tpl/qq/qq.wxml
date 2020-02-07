@@ -1,0 +1,9 @@
+<import src="../../templates/messages/messages.wxml" />
+
+<template is="message" data="{{content:'我们一起唱歌吧！',friend:'周杰伦'}}"  wx:key="*this"></template>
+
+<template is="message" wx:for="{{messages}}" wx:key="*this" data="{{content:item.content,friend:item.friend}}" ></template>
+
+<template is="message" wx:for="{{messages}}" wx:key="*this" data="{{...item}}" ></template>
+
+<include src="banner.wxml" />
