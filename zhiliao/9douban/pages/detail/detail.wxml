@@ -1,0 +1,73 @@
+<view class="item-header">
+  <view class="item-title">海王 Aquaman(2018)</view>
+  <view class="item-detail">
+    <view class="left-detail">
+      <view class="item-rate">
+        <stars rate="8" starsize="30" fontsize="30" fontcolor="#595959"></stars>
+        <text class="comment-persons">23435235人评价</text>
+      </view>
+      <view class="item-sub-detail">
+        <view class="item-type">
+          143分钟 动作、奇幻、冒险
+        </view>
+        <view class="item-show">
+          2018-12-07(中国大陆)上映 美国
+        </view>
+        <view class="item-actors">
+          温子仁（导演）/杰森摩玛、爱美伦
+        </view>
+      </view>
+    </view>
+    <view class="right-detail">
+      <image src="https://dss2.bdstatic.com/6Ot1bjeh1BF3odCf/it/u=1985903393,1370429510&fm=74&app=80&f=JPEG&size=f121,140?sec=1880279984&t=c4f3ca6eacf554e6f69f5d2995206536"></image>
+    </view>
+  </view>
+</view>
+
+<view class="item-tags">
+  <view class="item-tags-title">豆瓣成员常用标签</view>
+  <view class="item-tags-list">
+    <text>黑色幽默</text>
+    <text>小人物</text>
+    <text>喜剧</text>
+    <text>方言</text>
+    <text>中国大陆</text>
+    <text>人性</text>
+    <text>剧情</text>
+  </view>
+</view>
+
+<view class="conmment-list-group">
+  <view class="comment-title">短评（2343242）</view>
+  <view class="comment-group">
+    <view class="left-comment">
+      <image class="avatar" src=""></image>
+    </view>
+    <view class="right-comment">
+      <view class="username-rate">
+        <text class="username">羚锐</text>
+        <stars rate="5" starsize="30" istext="{{false}}"></stars>
+      </view>
+      <view class="release-time">2018-12-03 12:22:22</view>
+      <view class="content">大赛扥耳坠啊大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我法萨芬我</view>
+    </view>
+  </view>
+  
+  <view class="comment-group">
+    <view class="left-comment">
+      <image class="avatar" src=""></image>
+    </view>
+    <view class="right-comment">
+      <view class="username-rate">
+        <text class="username">羚锐</text>
+        <stars rate="5" starsize="30" istext="{{false}}"></stars>
+      </view>
+      <view class="release-time">2018-12-03 12:22:22</view>
+      <view class="content">大赛扥耳坠啊大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我大赛扥耳坠啊法萨芬我法萨芬我</view>
+    </view>
+  </view>
+</view>
+
+
+
+<navigator class="more-comment">查看更多短评</navigator>
