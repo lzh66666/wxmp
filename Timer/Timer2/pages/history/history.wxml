@@ -1,0 +1,38 @@
+<view class='history-list'>
+
+  <view bindtap='changTab' class="t {{currentTab==0 ? 'active' : ''}}" >
+    <text data-current='0' class="tab">{{tab1}}</text>
+    <view class="richang">
+      <view class="history-title">
+        <text>{{title}}</text>
+      </view>
+      <view class="history-h">
+        <block wx:for="{{useData}}" wx:for-item="item" wx:key="key">
+          <view class='history-line' bindtap="goHistoryArticle" data-newsid="{{item.newsid}}">
+            <view class='history-line-circle'></view>
+            <view class='history-line-line'>
+              <view class='history-line-one'></view>
+              <view class='history-line-two'></view>
+              <view class='history-line-circle-one'>
+                <view class="history-line-circle-two">
+                  <text>{{item.time}}</text>
+                </view>
+              </view>
+              <view class='history-line-event'>
+                <text>{{item.event}}</text>
+              </view>
+              <view class="history-line-img">
+                <image src="{{item.image}}"></image>
+              </view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+
+  <view bindtap='changTab' class="t {{currentTab==1 ? 'active' : ''}}" >
+    <text data-current='1' class="tab" style="margin-left:380rpx;">{{tab2}}</text>
+    <view class="richang"></view>
+  </view>
+</view>

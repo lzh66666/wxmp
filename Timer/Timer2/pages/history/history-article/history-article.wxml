@@ -1,0 +1,23 @@
+<view class="history-article">
+  <view  class="history-article-title">
+    <text>{{time}}</text>
+  </view>
+  <view class="history-article-con">
+    <text>{{eventArticle}}</text>
+  </view>
+  <view class="history-article-scence">
+    <text class="history-article-scence-title">{{scenceTitle}}</text>
+    <view class="history-article-scence-imfor">
+    <block wx:for="{{picture}}" wx:for-item="item" wx:key="key">
+      <view class="history-article-scence-imfomation">
+        <view class="history-article-scence-image">
+          <image src="{{item.image1}}"></image>
+        </view>
+        <view class="history-article-scence-name">
+          <text>{{item.pictureTitle}}</text>
+        </view>
+      </view>
+    </block>
+    </view>
+  </view>
+</view>
