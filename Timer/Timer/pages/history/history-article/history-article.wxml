@@ -1,0 +1,2 @@
+<!--pages/history-article/history-article.wxml-->
+<text>{{axis}}</text>

@@ -1,0 +1,130 @@
+.history_list {
+  background: #fff;
+  width: 100%;
+  position: relative;
+}
+
+
+
+.history-title{
+  position: fixed;
+  z-index: 999;
+  width:100%;
+  height: 200rpx;
+  margin-top: -356rpx;
+  top:300rpx;
+  text-align: center;
+  line-height: 300rpx;  
+  background: white;              
+}
+
+.history-h{
+  margin-top:200rpx;
+}
+.history-line {
+  background: #fff;
+  width: 90%;
+  margin-left: 5%;
+  height: 400rpx;
+}
+.history-line:nth-child(2n){
+  transform:rotateY(180deg);
+}
+
+.history-line:nth-child(2n) .history-line-circle-two{
+  transform:rotateY(180deg);
+}
+.history-line:nth-child(2n) .history-line-event{
+  transform:rotateY(180deg);
+}
+.history-line-line {
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  position: relative;
+}
+
+.history-line-circle {
+  border: 1px solid lightblue;
+  border-radius: 50rpx;
+  width: 30rpx;
+  height: 30rpx;
+  background: lightblue;
+  margin-left: 48%;
+}
+
+.history-line-one {
+  width:5rpx;
+  height: 366rpx;
+  background: lightblue;
+  margin-left: 50%;
+}
+
+.history-line-two{
+  position: absolute;
+  top: -13rpx;
+  margin-left: 52%;
+  width:130rpx;
+  height: 5rpx;
+  background: lightblue;
+}
+
+
+
+.history-line-circle-one{
+  position: absolute;
+  top:-90rpx;
+  margin-left: 72%;
+  width:180rpx;
+  height: 180rpx;
+  border: lightblue dotted 5rpx;
+  border-radius:  50% ;
+  z-index: 99;
+}
+
+.history-line-circle-two{
+  width:150rpx;
+  height: 150rpx;
+  border: lightblue solid 5rpx;
+  border-radius: 50% ;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+}
+.history-line-circle-two text{
+  display: block;
+  width: 150rpx;
+  height: 100rpx;
+  margin-top: 25rpx;
+  text-align: center;
+  line-height: 50rpx;
+  word-wrap: keep-all;
+}
+.history-line-event {
+  position: absolute;
+  top:120rpx;
+  margin-left: 59%;
+  width: 268rpx;
+  height: 156rpx;
+
+}
+
+.history-line-event text{
+  color: lightblue;
+  text-indent: 2rem;
+}
+
+.history-line-img{
+  position: absolute;
+  top: 50rpx;
+  left: 20rpx;
+  /* background: red; */
+  width: 300rpx;
+  height: 200rpx;
+}
+
+.history-line-img image{
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform:rotate(10deg);
+}

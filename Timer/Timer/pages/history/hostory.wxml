@@ -1,0 +1,27 @@
+<view class='history-list'>
+  <view class="history-title">
+    太原简史
+  </view>
+  <view class="history-h">
+  <block wx:for="{{axis}}" wx:key="*this">
+    <view class='history-line' bindtap="goHistoryArticle">
+      <view class='history-line-circle'></view>
+      <view class='history-line-line'>
+        <view class='history-line-one'></view>
+        <view class='history-line-two'></view>
+        <view class='history-line-circle-one'>
+          <view class="history-line-circle-two">
+            <text>{{item.time}}</text>
+          </view>
+        </view>
+        <view class='history-line-event'>
+          <text>{{item.event}}</text>
+        </view>
+        <view class="history-line-img">
+          <image src="{{item.image}}"></image>
+        </view>
+      </view>
+    </view>
+  </block>
+  </view>
+</view>
