@@ -1,0 +1,37 @@
+<view class="news-container">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{indicatorActiveColor}}">
+    <swiper-item>
+      <image src="../images/banner1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../images/banner2.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../images/banner3.jpg"></image>
+    </swiper-item>
+  </swiper>
+
+  <!-- <text>{{useData}}</text> -->
+  <!-- 列表渲染,只有数组才可以用,useData是一个数组,wx:for-item默认是item,可以不用写,key是消除警告,可以不写 -->
+  <block wx:for="{{useData}}" wx:for-item="item" wx:key="key">
+    <view class="article-list">
+      <view class="author-time">
+        <image src="{{item.authorIcon}}" class="author-icon"></image>
+        <text class="author-name">{{item.authorName}}</text>
+        <text class='author-date'>{{item.authorDate}}</text>
+      </view>
+      <text class="title">{{item.title}}</text>
+      <image src="{{item.articleImg}}" class="article-img"></image>
+      <text class="articletext">
+      {{item.articleTitle}}
+    </text>
+      <view class="article-like">
+        <image src="../images/sc.png" class="article-like-icon"></image>
+        <text class="article-like-text">{{item.articleLikeComment}}</text>
+        <image src="../images/fx.png" class="article-like-icon"></image>
+        <text class="article-like-text"> {{item.articleLikeSc}}</text>
+      </view>
+    </view>
+  </block>
+  
+</view>
