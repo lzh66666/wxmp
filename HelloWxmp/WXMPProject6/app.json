@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/movie/movie",
+    "pages/index/index",
+    "pages/news/news",
+    "pages/news/news-detail/news-detail",
+    "pages/movie/movie-more/movie-more",
+    "pages/movie/movie-detail/movie-detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "蓝莓派"
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻",
+        "iconPath": "pages/images/3.jpg",
+        "selectedIconPath": "pages/images/2.jpg"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影",
+        "iconPath": "pages/images/diany.png",
+        "selectedIconPath": "pages/images/diany.png"
+      }
+    ],
+    "borderStyle": "white",
+    "selectedColor": "#109D59"
+  },
+  "sitemapLocation": "sitemap.json"
+}
