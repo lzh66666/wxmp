@@ -1,0 +1,23 @@
+.news-group{
+  height: 200rpx;
+  width: 100%;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 30rpx 20rpx;
+  box-sizing: border-box;
+}
+
+.news-group .info-group{
+  float: left;
+  width: 500rpx;
+}
+
+.news-group .thumbnail-group{
+  width: 200rpx;
+  height: 140rpx;
+  float: right;
+}
+
+.thumbnail-group .thumbnail{
+  width: 100%;
+  height: 100%;
+}

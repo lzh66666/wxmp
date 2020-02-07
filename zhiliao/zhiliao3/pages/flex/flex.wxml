@@ -1,0 +1,11 @@
+<view class="outter">
+  <view class="inner inner1">
+    <!-- <view>hello</view> -->
+    1
+  </view>
+  <view class="inner inner2">2</view>
+  <view class="inner">3</view>
+  <view class="inner">4</view>
+  <view class="inner">5</view>
+  <view class="inner">6</view>
+</view>

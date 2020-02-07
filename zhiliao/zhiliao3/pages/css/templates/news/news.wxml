@@ -1,0 +1,15 @@
+<template name="news">
+  <view class = "news-group">
+    <view class="info-group">
+      <view class="title">外卖行业首先“会员通”，餐饮新零售升级“痛筋活血”！</view>
+      <view class="more-group">
+        <text class="author">范卓君</text>
+        <text class="time">10月24日</text>
+      </view>
+    </view>
+    <view class="thumbnail-group">
+      <image class="thumbnail" src="https://pic.huodongjia.com/event/2018-10-29/1540783166.1.jpg"></image>
+    </view>
+  </view>
+
+</template>
