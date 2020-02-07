@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "searcherbar": "/components/searcherbar/searcherbar",
+    "stars":"/components/stars/stars"
+  }
+}
