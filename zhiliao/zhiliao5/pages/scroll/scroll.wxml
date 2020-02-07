@@ -1,0 +1,23 @@
+<scroll-view class="scroll-view" scroll-x="{{true}}">
+  <view class="scroll-item bg_red"></view>
+  <view class="scroll-item bg_yellow"></view>
+  <view class="scroll-item bg_blue"></view>
+  <view class="scroll-item bg_pink"></view>
+  <view class="scroll-item bg_gray"></view>
+  
+</scroll-view>
+
+<!-- scroll-with-animation为自动滑动效果
+    scroll-into-view为到达那个id的区域
+    scroll-top为刚开始距离顶部多少距离
+    bindscrolltoupper为滚动到底部的事件（默认为50px）
+    upper-threshold为可以设置的高度，该上面默认值
+    bindscroll为只要滚动就会捕捉
+ -->
+
+<!-- <scroll-view scroll-top="50" class="scroll-view-y" scroll-y="{{true}}"> -->
+<scroll-view bindscroll="scrollEvent" upper-threshold="100" bindscrolltoupper="toUpperEvent" scroll-into-view="yellow" class="scroll-view-y" scroll-y="{{true}}" scroll-with-animation>
+  <view class="scroll-item-y bg_red"></view>
+  <view id="yellow" class="scroll-item-y bg_yellow"></view>
+  <view class="scroll-item-y bg_blue"></view>
+</scroll-view>

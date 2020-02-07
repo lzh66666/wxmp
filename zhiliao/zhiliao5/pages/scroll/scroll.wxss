@@ -1,0 +1,44 @@
+.scroll-view{
+  width: 100%;
+  height: 400rpx;
+  background: #43234f;
+  white-space: nowrap;
+}
+
+.scroll-view .scroll-item{
+  display: inline-block;
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.bg_red{
+  background: red;
+}
+
+.bg_yellow{
+  background: yellow;
+}
+
+.bg_blue{
+  background: blue;
+}
+
+.bg_pink{
+  background: pink;
+}
+
+.bg_gray{
+  background: gray;
+}
+
+.scroll-view-y{
+  width: 100%;
+  height: 200rpx;
+  margin-top: 100rpx;
+  background: gray;
+} 
+
+.scroll-view-y .scroll-item-y{
+  width: 100%;
+  height: 100rpx;
+}
