@@ -1,0 +1,7 @@
+<view>{{username}}</view>
+<view>{{person.username}}</view>
+<view wx:for="{{books}}" wx:key="*this">
+  {{item}}
+</view>
+
+<button bindtap="gotoNextPage">按钮</button>
