@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "蓝莓派"
+  },
+  "sitemapLocation": "sitemap.json"
+}
