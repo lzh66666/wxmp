@@ -1,0 +1,22 @@
+<import src="news-template/news-template.wxml" />
+
+<view class="news-container">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{indicatorActiveColor}}">
+    <swiper-item>
+      <image src="../images/banner1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../images/banner2.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../images/banner3.jpg"></image>
+    </swiper-item>
+  </swiper>
+
+  <!-- <text>{{useData}}</text> -->
+  <!-- 列表渲染,只有数组才可以用,useData是一个数组,wx:for-item默认是item,可以不用写,key是消除警告,可以不写 -->
+  <block wx:for="{{useData}}" wx:for-item="item" wx:key="key">
+  <!-- 可以复用 -->
+    <template is="newsTemplate" data="{{...item}}"></template>
+  </block>
+</view>
