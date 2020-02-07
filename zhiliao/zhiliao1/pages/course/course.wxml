@@ -1,0 +1,15 @@
+<view class="row" wx:for-item="row" wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:key="*this">
+  <view class="col" wx:for-item="col" wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:key="*this" wx:if="{{row >= col}}">
+    {{row}}*{{col}}={{row*col}}
+  </view>
+</view>
+
+<view wx:for="{{lines}}" wx:key="id">
+  <switch>{{item.name}}</switch>
+</view>
+
+<button bindtap="tapEvent">更新</button>
+
+<view wx:for="{{liness}}" wx:key="*this">
+  <switch>{{item}}</switch>
+</view>

@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/course/course",
+    "pages/weibo/weibo",
+    "pages/logs/logs"
+  ],
+
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "知了课堂",
+    "navigationBarTextStyle": "black",
+    "navigationStyle":"default",
+    "backgroundColor": "pink",
+    "enablePullDownRefresh": true
+  },
+
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#1AAD16",
+    "borderStyle": "white",
+    "position":"top",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabBar/tabBar1.png",
+        "selectedIconPath": "images/tabBar/tabBar1_selected.png"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "text": "通讯录",
+        "iconPath": "images/tabBar/tabBar2.png",
+        "selectedIconPath": "images/tabBar/tabBar2_selected.png"
+      },
+      {
+        "pagePath": "pages/weibo/weibo",
+        "text": "发现",
+        "iconPath": "images/tabBar/tabBar3.png",
+        "selectedIconPath": "images/tabBar/tabBar3_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我",
+        "iconPath": "images/tabBar/tabBar4.png",
+        "selectedIconPath": "images/tabBar/tabBar4_selected.png"
+      }
+    ]
+  },
+  "debug":false
+}
